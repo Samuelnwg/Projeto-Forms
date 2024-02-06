@@ -10,23 +10,26 @@
 
 <body>
     <main>
-        <div class="div-img"><img src="logo.png" class="logo"></div>
+        <div class="div-img"><img src="img/logo.png" class="logo"></div>
 
         <div class="div-p"><p>Crie sua conta</p></div>
         <form action="" method="">
             <div class="form">
                 <label for="user">Nome de Usuário</label>
-                <input type="text" name="user" id="user" placeholder="Usuário" required aria-required="true">
+                <input type="text" name="user" id="user" placeholder="Usuário" required>
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="nome@host.com" required aria-required="true">
+                <input type="email" name="email" id="email" placeholder="nome@host.com" required>
                 <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha" placeholder="Senha" required aria-required="true">
+                <img src="img/olhoSenha.png" id="olho" class="olho">
+                <input type="password" name="senha" id="pass" placeholder="Senha" required>
                 <label for="confirmarsenha">Confirmar Senha</label>
-                <input type="password" name="senha" id="senha" placeholder="Confirmar Senha" required aria-required="true">
+                <img src="img/olhoSenha.png" id="olho2" class="olho">
+                <input type="password" name="senha" id="pass2" placeholder="Confirmar Senha" required>
                 <button type="submit" class="botão">Registrar</button>
             </div>
         </form>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
